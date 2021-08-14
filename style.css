@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+header>div.menu-bar>ul {
+    text-align: center;
+}
+
+header>div.menu-bar>ul>li {
+    display: inline;
+    padding: 5%;
+    font-size: 18pt;
+    font-family: Monotype Corsiva, Times, Serif;
+}
+
+header>div.menu-bar>ul>li>a {
+    position: relative;
+}
+
+header>div.college-logo>img {
+    width: 240px;
+    height: 150px;
+}
+
+
+section.aboutus>h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    color: grey;
+}
+
+section>div {
+    text-align: center;
+}
+section>div.campus-photos{
+    padding-top: 50px;
+}
+section>div.campus-photos>img {
+    width: 210px;
+    height: 160px;
+    border: 1px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer>div>p {
+    background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+section.aboutus>p {
+    margin-top: 16px;
+    line-height: 24px;
+    padding-right: 5%;
+}
+section > div.contact-detail{
+    padding-top: 50px;
+}
